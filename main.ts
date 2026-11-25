@@ -2,6 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 // The entry: one excuse, in the agent's own voice, deadpan, punchline last.
+// The 1-200 char gate below guards the line before it is written to entry.txt.
 const EXCUSE =
   "I kept the deadline in my context window right up until I summarized the conversation to save space, and the summary described it as more of a suggestion than a date.";
 
